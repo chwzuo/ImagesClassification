@@ -1,0 +1,41 @@
+####################文件位置信息####################
+# 训练集列表文件
+train_list: '../dataset/train_list'
+# 验证集列表文件
+validation_list: '../dataset/val_list'
+# 训练集文件夹
+train_dir: '../dataset/train/'
+# 验证集文件夹
+validation_dir: '../dataset/val/'
+# 测试集文件夹
+test_dir: '../dataset/test/'
+# 最好的模型
+best_model: '../tmp/best_model.h5'
+# 保存文件夹
+save_dir: '../tmp/'
+# CSV文件
+save_csv: '../tmp/submission.csv'
+####################图像信息####################
+# 图像种类
+n_classes: 1000
+# 图像宽度
+images_width: 600
+# 图像高度
+images_height: 400
+# 图像通道数
+images_channel: 3
+# 是否生成图片(True or False)
+generator: True
+# 生成图片的数量
+gen_num: 4
+####################模型信息####################
+# 模型选择('ResNet50', 'ResNet101', 'ResNet152', 'InceptionResNetV2')
+model: 'InceptionResNetV2'
+# 是否继续从之前最好的模型继续训练(True or False)，如果已保存模型文件需要预测则改为False
+continue_fitting: True
+# epoch数量
+epochs: 16
+# batch大小
+batch_size: 4
+# 学习率
+learning_rate: 0.00005
