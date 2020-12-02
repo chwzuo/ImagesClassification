@@ -1,1 +1,1 @@
-This directory includes pictures in `ImagesClassification/reasme.md`
+This directory includes pictures in `ImagesClassification/readme.md`
